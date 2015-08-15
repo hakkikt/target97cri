@@ -1,0 +1,1 @@
+The file nichia-opt-steps_0.txt within this archive contains the result for a combinations test run of a Nichia 219B R9050 3500K with blue, cyan and deep red LEDs. The red adds little to the result and can largely be ignored. The target was >95CRI Class A.

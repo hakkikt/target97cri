@@ -1,0 +1,469 @@
+6.03   version #
+-2 13 1307 982   main window x, y, width, height
+0   analysis type
+0   input watts units
+1 0   write data, writeGamuts_COI_ClassA_TLCI_toFile_Chk
+1   set empty cells to 0
+1 0   playSoundsMenuItem, enableStickyMenuItem
+0   clear data on startup
+1   enable spectrum matching
+0   plot spectrum match difference
+1   plot normalized spectrum match
+9   numGamuts_classWide
+0   show gamut
+0   show gamut
+0   show gamut
+0   show gamut
+1   show gamut
+1   show gamut
+0   show gamut
+1   show gamut
+0   show gamut
+0   use photopic curve for matching spectrum
+0   use scotopic curve for matching spectrum
+0 0   use x-bar, z-bar curve for matching spectrum
+0   show color lines on plot
+1   show CIE test colors
+0   showStartUpSplashScreen
+0 0   blackWhite R-value plot, showRvaluesOnPlot
+1 1   CIE color map type, whiteBackgroundForAllPlots
+1   spectrum wavelength range
+2200   black body temperature K
+4000   reconstituted daylight temperature K
+Main   
+Matching   
+0 0 0 1   include binning effects, gamutType, not used, solidGamutLines
+0   include IR
+1   use orginal user spec intensities
+0   colorsFiltersUnits
+0.0000   x
+0.0000   y
+0 0   optimization method, optClassAonly
+200   desired range on CCT
+2200   desired CCT
+80   desiredCRI_TF
+    
+0   replace decimal with comma
+1 0 0 1   spectrumPhotometryStrPosition, showSpectrumGridLines, filtersColorsAt100, showColorPatchOnSpectrumPlot
+11   NUM_MAC_ADAM_ELLIPSES
+0   plot 0 MacAdam ellipse
+1   plot 1 MacAdam ellipse
+1   plot 2 MacAdam ellipse
+1   plot 3 MacAdam ellipse
+0   plot 4 MacAdam ellipse
+0   plot 5 MacAdam ellipse
+0   plot 6 MacAdam ellipse
+0   plot 7 MacAdam ellipse
+0   plot 8 MacAdam ellipse
+0   plot 9 MacAdam ellipse
+0   plot 10 MacAdam ellipse
+11   NUM_MAC_ADAM_ELLIPSES
+0   plot 0 u'v' circle
+0   plot 1 u'v' circle
+0   plot 2 u'v' circle
+0   plot 3 u'v' circle
+0   plot 4 u'v' circle
+0   plot 5 u'v' circle
+0   plot 6 u'v' circle
+0   plot 7 u'v' circle
+0   plot 8 u'v' circle
+0   plot 9 u'v' circle
+0   plot 10 u'v' circle
+0.00 0   userNumEllipseMain, xyupvpDuvType
+0   userNumEllipse_Chk
+0 0 2   free format input units, hideSpectrumDataMenuItem
+0 0   show2008ANSIbins, show2011ANSIbins
+0   use same plot symbols in delta(uv)
+0   writeTabbedDataMenuItem
+1 0   writeAllToPhotometryExcelMenuItem, writeColors_upvp_ExcelMenuItem
+50 1 1 0 0 0 4 0 1   l_star_for_plot, write_l_star_legend, outlineCIELabPointsInWhite, vectorPlot, not used, drawArrowTails, arrowHeadSize, scaleByMacAdams, showVectorTypeInLegend
+3   showLEDs
+1 1 1   logPlotCircadian, showDataPointValuesInCircadianPlot, showCircadianGridLines
+600 330 550 450  spectrumPlotWidth, spectrumPlotHeight, circadianWindowWidth, circadianWindowHeight
+520 550  ciePlotWidth, ciePlotHeight
+0 0  cri_cqs_PlotWidth, cri_cqs_PlotHeight
+0 0  CIELAB_PlotWidth, CIELAB_PlotHeight
+0 0  CIELAB_user_PlotWidth, CIELAB_user_PlotHeight
+800 399  colorPatchesPlotWidth, colorPatchesPlotHeight
+0 900 520 14 1 1 1 1 1.000000 1.000000 1.000000   TLCIgraphicColorScalingType, TLCIPlotWidth, TLCIPlotHeight, TLCIFontSize, showTCLItitle, showTCLIspecPlot, showTCLIadviceTable, showTLCIColorNames, CIEDE2000_kL, CIEDE2000_kC, CIEDE2000_kH
+"Black body at 2200K"
+0 0.00  minAllowableTLCI_Qa, maxAllowableTLCI_d
+""
+800 600 800 600 1 1   DuvWindowWidth, DuvWindowHeight, multiDesignOptWidth, multiDesignOptHeight, startWithValuesFromLastDesignMultiDesignOptimization, autoAdjustCRIR9MultiDesignOptimization
+2 1 1 1 0 0 0 0 0 85   numLEDs_CB_index, numTableRows_CB_index, Cx_increment_CB_index, Cy_increment_CB_index, includeCRIR9columns, minCRI_CB_Index, minR9_CB_Index, autoAdjustCRIR9, lightifyRGBWLedLamp, opticalEfficiencyPercent
+""  // ledLumenStrMaxLumens
+"" // ledWattsStrMaxLumens
+"" // LEDLERStrFromUI
+"" // CxCyStrFromUI
+"" // chipCountScaleFactorStr
+"" // lumensScaleFactorStr
+"" // ledNameForMaxLumensStr
+0   // num dutyCycleLPWColorMixLampDesignStr to read
+"" // circuitIDIndexStr
+"" // includeInGamutStr
+"12.0" // maxDesiredWattsForColorMixLampDesignStr
+0 0   // not used, colorMixLampDesignType
+950 600 2 1   // colorMixLampDesignWidth, colorMixLampDesignHeight, cctBinIncrementIndex, cctBinWidthIndex
+2   showBlackBodyLocus
+1   showGridLines
+1 3   show100KCCTLines, cctLinesLabelsType
+1   showPureColorsLines
+1   showWavelengths
+1   enableClick_n_DragZoomPan
+0   plotWhiteCIE
+1   writePhotometryToCIE_Plot
+1   enableSmartZoom
+1   writePhotometryToSpectrumPlot
+0   writeBinningRuns_Chk
+1 1   enableMouseWheelSpecZoomMenuItem, mouseWheelForLEDsMenuItem
+1   colorSpectrumPlot
+10 10 10 0 0  ciePlotFontSize, ciePlotSymbolSize, spectrumPlotFontSize, Duv_numTableRows_CB_index, colorLabels
+10   rqValuesPlotfontSize
+10   colorPatchPlotFontSize
+0 0   show_dE_onColorPatchPlot, dE_typeOnColorPatchPlot
+10   cielabPlotFontSize
+0   show_cri_cqs
+0   show_opt_cri_cqs
+0 1 0 1 0 500 700 75 50 10 0 800 550 1  Color system drawing settings
+1   constrain_uMol_sW_to_400_700nm
+0   allowFilterGreaterThanOne
+0   removeBluePeakChk
+1   spectraSuiteFileFormatUnits
+1   colorCIEabPlot
+0 1   showColorNumbersCIELAB, showCIELabGridLines
+1   colorTabs
+0   plot_all_14_Rvalues_cielab
+0   photometryLabelPositionOnCIEplot
+1   extraPointMacAdamEllipse
+0   numPointsMacAdamEllipseIndex
+6   numPatchesPerRow
+128 316   colorPatchBoxWidth, colorPatchBoxHeight
+0   fixColorPatchSize
+1   show_connecting_lines_CIELAB
+1   show_connecting_lines_R1_R8_CIELAB
+0   drawSeparationLineColorPatches
+0 0 0   autoLabelType, autoLabelChkState, pointLabelPosition
+3 800 600   numLEDsToMixForBinSubstitution, binSubstitutionWidth, binSubstitutionHeight
+1 1 1 1  selectedLEDIndexCreatePureColor, includeLumensInName, includeWvisInName, appendNameToDefaultName
+800 600 1   binningSimulationWidth, binningSimulationHeight, redEllipseForBinning_xyLm
+Tahoma
+80  font size
+40  font weight
+5  font slant
+0  font encoding
+0  font width
+0  font flags
+15   num R-values
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+0.000   minimum gamut CRI
+0.000 0   minimum gamut d65, min GAI
+0.0   minimum LPW
+0.0030   maximum Duv
+15   num Q-values
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+5   numUserColors
+1   ColorChk
+1   ColorChk
+1   ColorChk
+1   ColorChk
+1   ColorChk
+6   numUserFilters
+0   filterChk
+0   filterChk
+0   filterChk
+0   filterChk
+0   filterChk
+0   filterChk
+33   totalNumSpecAvailable
+UV
+0   ledChk
+420.0   
+0.000000e+000   
+1.000000e+002   
+2.500000e+000   
+3.000000e+000   
+2.300000e+001   
+Blue
+0   ledChk
+478.0   
+5.000000e-001   
+0.000000e+000   
+5.000000e+000   
+3.000000e+000   
+4.500000e+001   
+Verde
+0   ledChk
+505.0   
+1.500000e+000   
+0.000000e+000   
+1.000000e+001   
+3.000000e+000   
+7.000000e+001   
+Green
+0   ledChk
+530.0   
+3.730000e+000   
+0.000000e+000   
+2.500000e+000   
+3.000000e+000   
+1.000000e+002   
+Yellow
+0   ledChk
+590.0   
+0.000000e+000   
+1.000000e+001   
+2.500000e+000   
+3.000000e+000   
+3.000000e+001   
+Amber
+1   ledChk
+614.0   
+4.000000e+000   
+0.000000e+000   
+2.500000e+000   
+3.000000e+000   
+0.000000e+000   
+Red
+1   ledChk
+639.0   
+3.900000e+000   
+0.000000e+000   
+5.000000e+000   
+3.000000e+000   
+9.000000e+000   
+Deep red
+1   ledChk
+660.0   
+0.000000e+000   
+8.000000e+001   
+1.000000e+001   
+3.000000e+000   
+1.500000e+001   
+OSLON Black IR (860nm peak)
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+3.000000e+000   
+8.300000e-005   
+OSLON Black IR (950nm peak)
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+3.000000e+000   
+5.000000e-007   
+White (2700K)
+0   ledChk
+0.0   
+5.770000e+001   
+0.000000e+000   
+0.000000e+000   
+3.000000e+000   
+5.500000e+001   
+White (4000K)
+0   ledChk
+0.0   
+5.770000e+001   
+0.000000e+000   
+0.000000e+000   
+3.000000e+000   
+7.180000e+001   
+White (5700K)
+0   ledChk
+0.0   
+1.040000e+002   
+0.000000e+000   
+0.000000e+000   
+3.000000e+000   
+9.900000e+001   
+xhp35-5000k
+0   ledChk
+0.0   
+1.140000e+002   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+1.270000e+002   
+xhp35-2800k
+0   ledChk
+0.0   
+1.170000e+002   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+1.220000e+002   
+nvsl219B-V1-E90
+1   ledChk
+0.0   
+2.500000e+001   
+0.000000e+000   
+0.000000e+000   
+3.000000e+000   
+1.000000e+002   
+oslon-lcwcrdp
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+3.000000e+000   
+0.000000e+000   
+oslon-gw-pslrs1
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+3.000000e+000   
+0.000000e+000   
+strong red
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+3.000000e+000   
+0.000000e+000   
+rebel-lime
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+470 nm peak 20 FWHM
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+465 nm peak 20 FWHM
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+461 nm peak 20 FWHM
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+luxeon3535-mxa9-2700k
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+luxeon3535-mxa8-2200k
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+rebel-amber
+1   ledChk
+0.0   
+2.500000e+001   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+pineWp1
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+1.000000e+000   
+pineWp44
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+1.000000e+000   
+spruceWp1
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+1.000000e+000   
+spruceWp31
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+1.000000e+000   
+cxa2520-2700k
+0   ledChk
+0.0   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+482 nm peak 20 FWHM
+0   ledChk
+0.0   
+2.100000e+001   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+473 nm peak 20 FWHM
+0   ledChk
+0.0   
+1.000000e+001   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
+0.000000e+000   
